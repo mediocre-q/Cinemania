@@ -13,12 +13,14 @@ Video rendering was about 10× faster in our tests. The comparison used differen
 ## Install
 
 1. Close TMLoader.
-2. Open `%LOCALAPPDATA%\TMLoader\config.yaml` and add the URL under `servers:`, keeping any existing entries:
+   
+3. Open `%LOCALAPPDATA%\TMLoader\config.yaml` and add the URL under `servers:`, keeping any existing entries:
 
    ```yaml
    servers:
-     - https://raw.githubusercontent.com/mediocre-q/Cinemania/master/modloader/
+     - 'https://raw.githubusercontent.com/mediocre-q/Cinemania/master/modloader/'
    ```
 
-3. Reopen TMLoader and select Cinemania in your profile.
-4. Export a video normally through MediaTracker.
+4. Reopen TMLoader and select Cinemania in your profile.
+   
+5. Export a video normally through MediaTracker.
